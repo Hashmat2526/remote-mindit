@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Star Wars Character Application
+Welcome to the Star Wars Character Application! This simple web application allows you to explore information about various characters from the Star Wars universe.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introduction
+This project utilizes a Node.js backend to create a custom API that mimics the Star Wars API /people endpoint. The frontend is built with React.js and styled with CSS to create an interactive and visually appealing user interface.
 
-## Available Scripts
+Features
+API: A custom API is created in Node.js to fetch a list of Star Wars characters.
+CRUD Operations: Users can add, edit, and delete characters from the application.
+Loading Indicator: A loading indicator is displayed while data is being fetched or refetched.
+Error Handling: Graceful error handling is implemented, especially when the API server is down.
+Character Cards: Each character is displayed as a card with their name and a randomly sourced picture.
+Card Styling: Cards are colored based on the character's species, providing visual distinction.
+Hover Animation: Cards feature a hover animation effect for enhanced interactivity.
+Character Details Modal: Clicking on a character card opens a modal displaying detailed information about the character.
+Modal Content: The modal includes the character's name as the header, along with information about their height, mass, birth year, and date added to the API. It also shows the number of films the character appears in and fetches details about their homeworld, including its name, terrain, climate, and the number of residents.
+High-Quality Code: Emphasis is placed on maintaining good coding standards, ensuring a maintainable application architecture.
+Testing: Unit tests are implemented to validate the functionality of the application.
+Preview
+To see the application in action, check out this demo video.
 
-In the project directory, you can run:
+Getting Started
+To run the application locally, follow these steps:
 
-### `npm start`
+Clone this repository.
+Navigate to the backend directory and run npm install to install the required dependencies.
+Start the Node.js server by running npm start.
+Navigate to the frontend directory and run npm install to install the required dependencies.
+Start the React development server by running npm start.
+Open your web browser and visit http://localhost:3000 to view the application.
+Contributions
+Contributions to this project are welcome! If you have any ideas for improvements or new features, feel free to submit a pull request.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Credits
+This project was created by Hashmat Ali : hashmatajalali@gmail.com.
+Special thanks to the Star Wars API for providing the character data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for your own projects.
