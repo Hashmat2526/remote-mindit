@@ -37,3 +37,5 @@ Special thanks to the Star Wars API for providing the character data.
 
 License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for your own projects.
+
+Demo Video: https://www.loom.com/share/2e73a19e0f51470b825d58dc256c92e0
